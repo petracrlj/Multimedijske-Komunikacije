@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+	 <title>Projektni zadatak</title>
+	 <link rel="stylesheet" href="stil.css">
+	 	 </head>
+	 <style>
+	 body{
+	 background-color:darksalmon;
+	 }
+	 p, h1{
+	 width:20%;
+	
+	 font-family:GothicE;
+	 
+	 color:white;
+	 padding:35px;
+	 background-color:#99ccff;
+	 }
+	 h1 {
+	 margin-top:50px;
+	 }
+	 p {
+	  text-align:justify
+	  }
+	  h2 {
+	  font-family:Britannic;
+	  color:#00003d;
+	  text-shadow:2px 2px 10px #003399;}
+	  h3{
+	  font-family:Trebuchet MS;
+	  font-size:25px;
+	  color:#ffcc66;}
+	#prvi{
+	color:#d9f9b8;
+	font-size:20px;
+	font-weight: 900;
+	width:60%;
+	}
+	
+	 #drugi {
+	 color:#ffff99;
+	 font-size:20px;
+	 font-weight: 900;
+	 width:80%;
+	 }
+	 #treci {
+	 font-size:20px;
+	 color:azure;
+	 font-style:italic;
+	 font-weight:bold;
+	  width:60%;
+	 }
+	 </style>
+
+	
+	 <body>
+	  <header>
+	 <h1>Petra Crljen</h1>
+	  </header>
+	  <main>
+	  <section>
+	  <h2> O meni</h2>
+	 <p id="prvi" class="odlomak""svi" data-vaznost="8">Rođena sam u Slavonskom Brodu, 28.05.2022.godine.Imam jednu mlađu sestru.</p>
+	 </section>
+	 <section>
+	 <h2>Trenutno obrazovanje </h2> 
+	 <p id="drugi" class="odlomak""svi">Studiram na Grafičkom fakultetu. Druga sam godina preddiplomskog fakulteta za dizajn grafčkih proizvoda.</p>
+	</section>
+	<section>
+	<h2>Moji hobiji </h2>
+	 <p id="treci" class="odlomak""svi">U slobodno vrijeme bavim se odbojkom i plivanjem, te ponekad planinarenjem.</p>
+	 </section>
+	
+	 <section id="plista">
+	 <h2>Horoskopski Znak</h2>
+	 <ol class="prva">
+	 <li>Sunce-Blizanci</li>
+	 <li>Mjesec-Jarac</li>
+	 <li>Merkur-Blizanci</li>
+	 <li>Venera-Rak</li>
+	 </ol>
+	 <ol class="druga">
+	 <li>
+	 <em>Obrazovanje</em> 
+	 <ul>
+	 <li>Osnovna škola Antun Mihanović, Slavonski Brod</li>
+	 <li>Srednja medicinska škola, Slavonski Brod</li>
+	 </ul>
+	 </li>
+	 <li>
+	 <em>Studentski poslovi</em>
+	 <ul>
+	 <li>Edukatorica u Zoo vrtu</li>
+	 <li>Gamemaster u Escape room-u</li>
+	 </ul>
+	 </li>
+	 </ol>
+	
+	  </section>
+	  <section id="tablica1">
+	  <table>
+	  <caption id="ras"> Raspored sati</caption>
+	  <tr>
+	  <th colspan="5" id="atj">A tjedan</th></tr>
+	  <tr>
+	  <th>Ponedjeljak</th>
+	  <th>Utorak</th>
+	  <th>Srijeda</th>
+	  <th>Četvrtak</th>
+	  <th>Petak</th>
+	  </tr>
+	  <tr>
+	  <td></td>
+	  <td>Komunikologija</td>
+	  <td></td>
+	  <td>OG</td>
+	  <td></td>
+	  </tr>
+	  <tr>
+	  <td>TF</td>
+	  <td>KS</td>
+	  <td></td>
+	  <td></td>
+	  <td>ViS</td>
+	  </tr>
+	  <tr>
+	  <td>MMK</td>
+	  <td>RF</td>
+	  <td></td>
+	  <td></td>
+	  <td>ViSS</td>
+	  </tr>
+	  <tr>
+	  <td>LP</td>
+	  <td>GS</td>
+	  <td></td>
+	  <td>GSS</td>
+	  <td>TF</td>
+	  </tr>
+	  </table>
+	  </section>
+	  
+	  <section id="link1">
+	  <ul>
+	    <li><a href="Cvijet.html">Cvijet html</a></li>
+		  <li><a href="https://en.wikipedia.org/wiki/Trimeresurus_stejnegeri">Green viper</a></li>
+		    <li><a href="#prvi">Prvi paragraf</a></li>
+			<li><a href="#drugi">Drugi paragraf</a></li>
+			<li><a href="#treci">Treći paragraf</a></li>
+			
+	  </ul>
+	  </section>
+	  <form action="">
+<label for="ime">Ime</label>
+<input type="text"id="ime" autofocus required placeholder="npr.Ana">
+<label for="prezime">Prezime</label>
+<input type="text"id="prezime" required placeholder="npr.Anić" font-style=italic;>
+<label for="lozinka">Lozinka</label>
+<input type="password"id="lozinka" maxlength="7" required>
+<label for="email">E-mail</label>
+<input type="email"id="email">
+<label for="web">Web adresa</label>
+<input type="url" id="web" placeholder="com.hr">
+<label for="rodjendan">Datum rođenja</label>
+<input type="date"id="rodjendan">
+<label for="mobilni">Broj prstiju</label>
+<input type="number"id="mobilni">
+
+<fieldset>
+<legend>SPOL</legend>
+<input type="radio" value="M" id="M" name="spol"><label for="M">muški</label>
+<input type="radio" value="F" id="F" name="spol"><label for="F">ženski</label>
+</fieldset>
+
+<fieldset>
+<legend>Godišnje doba</legend>
+<input type="checkbox" value="ljeto" id="ljeto" name="obavezni">
+<label for="ljeto">Ljeto</label>
+<input type="checkbox" value="jesen" id="jesen" name="obavezni">
+<label for="jesen">Jesen</label>
+<input type="checkbox" value="zima" id="zima" name="obavezni">
+<label for="zima">Zima</label>
+<input type="checkbox" value="proljece" id="proljece" name="obavezni">
+<label for="proljece">Proljeće</label>
+</fieldset>
+<label for="izborni">Uzmite jedan broj</label>
+<select name="izborni">
+<option>Broj 1</option>
+
+<option>Broj 2</option>
+
+<option>Broj 3</option>
+</select><br>
+<label for="boja">Odaberite boju</label>
+<input type="color" id="boja" name="boja">
+<input type="reset" value="Poništi">
+<input type="submit" value="Prihvati">
+</form>
+	 </body>
+	 </main>
+</html>

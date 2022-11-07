@@ -1,0 +1,162 @@
+#plista ol.prva{
+	font-family:Tahoma;
+	font-size:20px;
+	font-weight:bold;
+	
+
+}
+#plista ol.prva li{
+	display:inline-block;
+	margin-left:3px;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:35px;
+	background-color:#a6ff4d;
+	outline: 2px dashed blue;
+}
+#plista .druga{
+	font-family:Tahoma;
+	font-size:20px;
+	
+	list-style-type:upper-roman;
+	border-top:3px solid #660066;
+	border-bottom:3px solid #660066;
+}
+#plista .druga em{
+	color:#660066;
+	font:bold italic 50px/1em"Brush Script MT";
+}
+#tablica1 td,th{
+border:2px solid black;
+font-family: Cambria;
+padding:15px;
+width:150px;
+background-color:#99ccff;}
+table{
+	border:5px solid black;
+	
+}
+#atj{
+	background-color:magenta;
+	font-size:20px;
+	
+}
+#ras{
+	font-size:25px;
+	font-weight:bold;
+}
+#cvijet {
+	margin:100px 0;
+    width:400px;
+}
+#cvijet table {
+	width:200px;
+	height:200px;
+	float:left;
+	border:5px solid pink;
+	box-sizing:border-box;
+}
+#crveni{
+	background-color:#cc0099;
+	border-radius:30px 70px 0 70px; 
+}
+#zeleni{
+	background-color:#660066;
+	border-radius:70px 30px 70px 0; 
+}#plavi{
+	background-color:#660033;
+	border-radius:70px 0 70px 30px; 
+}#zuti{
+	background-color:#ff5050;
+	border-radius:0 70px 30px 70px; 
+}
+#link1 ul{
+	list-style:none;
+	padding:0;
+	
+}
+#link1 li{
+	width:200px;
+	padding:40px;
+	background-color:#99ccff;
+
+}
+#link1 li a{
+		color:black;
+	text-transform:uppercase;
+	font-family:Times New Roman;
+	font-size:20px;
+	font-weight:bold; 
+	list-style-type: none
+}
+#link1 li a:hover{
+	font-size:21px;
+	
+}
+#link1 li a:link {
+  color: black;
+}
+#link1 li a:visited {
+color: #660066;}
+
+#link1 li a:hover {
+  color: hotpink;
+	
+}
+form{
+	margin:10px;
+	font-family:Helvetica;
+	width:300px;
+	background-color:#a6ff4d;
+	padding:50px;
+	border:dotted 3px blue;
+	border-radius:50px;
+}
+input, fieldset{
+	font-size: 15px;
+	width:90%;
+	padding:10px;
+	margin:10px ;
+	background-color:rgb(230, 255, 230);
+	border:2px solid #009933;
+}
+
+
+input:focus{
+	background-color:#99ff99;
+}
+label{
+	font-weight:bold;
+		margin:10px;
+}
+input[type="submit"], input[type="reset"] {
+	width:125px;
+	height:50px;
+	padding:10px;
+	margin-left:10px;
+	box-shadow:2px 2px 2px #a6ff4d ;
+	border:3px solid blue;
+	
+}
+input[type="submit"]:hover,input[type="reset"]:hover {
+box-shadow:2px 4px 2px #99ff99;
+background-color:#99ff99;
+}
+input[type="color"]{
+	padding:4px;
+	height:50px;
+	width:98%:
+}
+select{
+	padding:10px;
+	width:98%;
+	height:50px;
+	margin:10px;
+	background-color:rgb(230, 255, 230);
+	border:2px solid #009933;
+}
+legend{
+	font-size:20px;
+	margin-bottom:0px;
+	border-radius:100px;
+}
